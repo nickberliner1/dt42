@@ -21,11 +21,12 @@ export default {
 </script>
 
 <style scoped>
-/* .navbar {
+.navbar {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 1.7rem;
+    background-color: none;
 }
 
 .link {
@@ -35,5 +36,5 @@ export default {
 .link:hover {
     color: green;
     text-decoration: none;
-} */
+}
 </style>
