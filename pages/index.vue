@@ -16,7 +16,7 @@ import Hero from '../components/Hero';
 export default {
 
 	components: {
-		Hero
+		Hero: Hero
 	}
 }
 </script>
