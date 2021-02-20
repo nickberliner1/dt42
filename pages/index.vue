@@ -1,13 +1,13 @@
 <template>
-    <div class="container">
-        <div>
+    <div>
+        <!-- <div> -->
             <Logo />
 			<Hero />
 			<h1 class="title">
 				dt42
 			</h1>
-        </div>
-    </div>
+        <!-- </div> -->
+    </div> 
 </template>
 
 <script>
