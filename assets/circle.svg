@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" xmlns:vectornator="http://vectornator.io" version="1.1" viewBox="0 0 1024 1024">
+<metadata>
+<vectornator:setting key="DimensionsVisible" value="1"/>
+<vectornator:setting key="SnapToGrid" value="0"/>
+<vectornator:setting key="SnapToPoints" value="0"/>
+<vectornator:setting key="GuidesVisible" value="1"/>
+<vectornator:setting key="RulersVisible" value="1"/>
+<vectornator:setting key="SnapToEdges" value="0"/>
+<vectornator:setting key="DisplayWhiteBackground" value="0"/>
+<vectornator:setting key="SnapToGuides" value="1"/>
+<vectornator:setting key="GridSpacing" value="36"/>
+<vectornator:setting key="Units" value="Pixels"/>
+<vectornator:setting key="DynamicGuides" value="0"/>
+<vectornator:setting key="New" value="1"/>
+</metadata>
+<defs/>
+<g id="Layer 1" vectornator:layerName="Layer 1">
+<path stroke="#000000" stroke-width="1" d="M209.895+270.213C219.054+294.313+246.266+283.371+265.779+280.625C372.167+230.611+506.83+264.833+578.542+357.065C635.696+481.351+651.666+665.019+517.073+746.968C476.656+770.38+429.072+778.654+382.804+775.638C238.462+728.819+118.322+584.914+142.94+427.716C153.946+403.705+169.968+382.252+185.491+360.966C198.06+341.596+213.977+324.81+227.111+305.879C234.992+292.793+245.528+265.694+225.635+258.938C199.584+265.659+198.329+312.171+171.258+330.436C150.998+359.603+127.721+387.658+114.781+421.012C86.5957+593.022+214.467+753.654+374.018+804.436C477.032+819.496+581.887+762.01+626.595+668.301C670.394+561.345+650.965+429.651+596.211+330.184C517.118+235.744+376.131+197.579+262.723+250.148C249.376+253.573+235.583+255.526+221.786+255.252C218.01+260.284+213.125+264.955+209.895+270.213" fill="#ffffff" stroke-linecap="butt" opacity="1" stroke-linejoin="round"/>
+</g>
+</svg>

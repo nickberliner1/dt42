@@ -1,12 +1,8 @@
 <template>
     <div>
-        <!-- <div> -->
-            <Logo />
-			<Hero />
-			<h1 class="title">
-				dt42
-			</h1>
-        <!-- </div> -->
+		<img src="~/assets/circle.svg" />
+		<Hero />
+
     </div> 
 </template>
 

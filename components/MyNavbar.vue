@@ -31,10 +31,11 @@ export default {
 
 .link {
     margin-right: 5rem;
+    color: black;
 }
 
 .link:hover {
-    color: green;
+    color: grey;
     text-decoration: none;
 }
 </style>
