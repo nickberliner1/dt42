@@ -17,5 +17,6 @@ export default {
     margin: 5rem;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    padding: 2rem;
 }
 </style>
