@@ -19,4 +19,10 @@ export default {
     grid-template-columns: 2fr 1fr;
     padding: 2rem;
 }
+
+h1, h2, h6 {
+    background-color: white;
+    /* -webkit-text-stroke: 1px black; */
+    /* text-shadow: 3px 1px 2px rgb(255, 255, 255); */
+}
 </style>
