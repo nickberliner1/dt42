@@ -26,7 +26,7 @@ export default {
     justify-content: flex-end;
     align-items: center;
     padding: 1.7rem;
-    background-color: none;
+    background-color: rgba(179, 179, 179, 0.445);
 }
 
 .link {
