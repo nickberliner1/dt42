@@ -1,8 +1,6 @@
 <template>
     <div>
-		<img src="~/assets/circle.svg" />
 		<Hero />
-
     </div> 
 </template>
 

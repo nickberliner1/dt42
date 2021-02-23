@@ -43,7 +43,9 @@ html {
 }
 
 .gradient {
-	background: linear-gradient(90deg, #168b57 0%, #2091b1 100%);
+	/* background: linear-gradient(90deg, #168b57 0%, #2091b1 100%); */
+  background-image: url("https://i.imgur.com/9ppiWac.jpg");
+  background-size: cover;
 }
 
 /* .button--green {
