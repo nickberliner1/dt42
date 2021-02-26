@@ -22,6 +22,7 @@ export default {
 
 h1, h2, h6 {
     background-color: white;
+    border: 2px solid white;
     /* -webkit-text-stroke: 1px black; */
     /* text-shadow: 3px 1px 2px rgb(255, 255, 255); */
 }
