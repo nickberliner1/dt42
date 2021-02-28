@@ -3,6 +3,7 @@
         <h1>Yo</h1>
         <h2>yooo</h2>
         <h6>ayayayyaya</h6>
+
     </div>
 </template>
 
@@ -28,3 +29,4 @@ h1, h2, h6 {
     /* text-shadow: 3px 1px 2px rgb(255, 255, 255); */
 }
 </style>
+
