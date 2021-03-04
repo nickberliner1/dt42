@@ -18,7 +18,7 @@ export default {
 .hero-content-container {
     margin: 5rem;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 2fr;
     padding: 2rem;
 }
 
