@@ -14,6 +14,7 @@ export default {
 </script>
 
 <style scoped>
+
 .hero-content-container {
     margin: 5rem;
     display: grid;
@@ -28,5 +29,6 @@ h1, h2, h6 {
     /* -webkit-text-stroke: 1px black; */
     /* text-shadow: 3px 1px 2px rgb(255, 255, 255); */
 }
+
 </style>
 
