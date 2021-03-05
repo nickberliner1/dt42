@@ -36,5 +36,11 @@ h1, h2, h6 {
     /* text-shadow: 3px 1px 2px rgb(255, 255, 255); */
 }
 
+.atom {
+    margin: 2em;
+    display: block;
+    margin: auto;
+}
+
 </style>
 
