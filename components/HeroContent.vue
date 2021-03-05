@@ -3,7 +3,9 @@
         <div class="heading">
             <h1>Yo</h1>
         </div>
-        <h2>yooo</h2>
+        <div class="atom">
+            <img src="~/assets/atom.svg" alt="" srcset="">
+        </div>
         <h6>ayayayyaya</h6>
 
     </div>
@@ -22,6 +24,7 @@ export default {
     margin: 5rem;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    /* grid-template-rows: 1fr 1fr; */
     padding: 2rem;
 }
 
