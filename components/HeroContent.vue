@@ -1,6 +1,8 @@
 <template>
     <div class="hero-content-container">
-        <h1>Yo</h1>
+        <div class="heading">
+            <h1>Yo</h1>
+        </div>
         <h2>yooo</h2>
         <h6>ayayayyaya</h6>
 
