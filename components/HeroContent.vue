@@ -38,6 +38,8 @@ export default {
     name: 'HeroContent'
 }
 // animate svg
+
+
 </script>
 
 <style scoped>
