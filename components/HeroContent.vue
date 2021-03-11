@@ -69,7 +69,9 @@ export default {
   }
 }
 
-
+.progress-ring__circle {
+    stroke-dasharray: 10 20;
+}
 
 .hero-content-container {
     margin: 5rem;
