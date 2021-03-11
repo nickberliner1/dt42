@@ -15,15 +15,15 @@
     transform="translate(-213.63946 -115.46498)" fill="#e6e6e6"/>
     <path d="M779.36054,424.71743a90.34156,90.34156,0,1,1,90.3418-90.3418A90.44435,90.44435,0,0,1,779.36054,424.71743Zm0-178.68311a88.34156,88.34156,0,1,0,88.3418,88.34131A88.44164,88.44164,0,0,0,779.36054,246.03432Z" 
     transform="translate(-213.63946 -115.46498)" fill="#e6e6e6"/>
-    <circle cx="565.7211" cy="218.91089" r="45.87339" fill="#42f57b"/>
-    <circle cx="598.53905" cy="14.54522" r="14.54522" fill="#42f57b"/>
-    <circle cx="416.16438" cy="360.2739" r="14.54522" fill="#42f57b"/>
-    <circle cx="418.16438" cy="235.2739" r="14.54522" fill="#e6e6e6"/>
-    <circle cx="690.16438" cy="137.2739" r="14.54522" fill="#e6e6e6"/>
-    <circle cx="747.16438" cy="318.2739" r="14.54522" fill="#e6e6e6"/>
-    <circle cx="704.83104" cy="253.98191" r="14.54522" fill="#42f57b"/>
-    <circle cx="385.95507" cy="115.24289" r="14.54522" fill="#42f57b"/>
-    <circle cx="619.79745" cy="418.45478" r="14.54522" fill="#42f57b"/>
+    <circle class="circle" cx="565.7211" cy="218.91089" r="45.87339" fill="#42f57b"/>
+    <circle class="circle" cx="598.53905" cy="14.54522" r="14.54522" fill="#42f57b"/>
+    <circle class="circle" cx="416.16438" cy="360.2739" r="14.54522" fill="#42f57b"/>
+    <circle class="circle" cx="418.16438" cy="235.2739" r="14.54522" fill="#e6e6e6"/>
+    <circle class="circle" cx="690.16438" cy="137.2739" r="14.54522" fill="#e6e6e6"/>
+    <circle class="circle" cx="747.16438" cy="318.2739" r="14.54522" fill="#e6e6e6"/>
+    <circle class="circle" cx="704.83104" cy="253.98191" r="14.54522" fill="#42f57b"/>
+    <circle class="circle" cx="385.95507" cy="115.24289" r="14.54522" fill="#42f57b"/>
+    <circle class="circle" cx="619.79745" cy="418.45478" r="14.54522" fill="#42f57b"/>
 </svg>
 
 
@@ -43,7 +43,7 @@ export default {
 
 <style scoped>
 
-.outer-ring {
+.circle {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   animation: dash 5s linear;
