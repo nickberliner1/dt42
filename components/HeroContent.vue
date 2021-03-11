@@ -29,6 +29,7 @@
 <svg class="progress-ring">
     <circle
         class="progress-ring__circle"
+        ref="progress-ring__circle"
         stroke-width="4"
         stroke="white"
         fill="transparent"
@@ -45,8 +46,24 @@
 </template>
 
 <script>
+const circle = document.querySelector('.progress-ring__circle');
+const radius = circle.r.baseVal.value;
+const circumference = radius * 2 * Math.PI;
+
+circle.style.strokeDasharray = `${circumference} ${circumference}`;
+circle.style.strokeDashoffset = circumference;
+
 export default {
-    name: 'HeroContent'
+    name: 'HeroContent',
+    methods: {
+        
+        setProgress(percent) {
+            const offset = circumference - percent / 100 * circumference;
+            circle.style.strokeDashoffset = offset;
+        }
+        
+    },
+
 }
 // animate svg
 
@@ -70,7 +87,7 @@ export default {
 }
 
 .progress-ring__circle {
-    stroke-dasharray: 10 20;
+    transition: stroke-dashoffset 0.35s;
 }
 
 .hero-content-container {
