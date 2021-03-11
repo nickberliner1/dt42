@@ -5,7 +5,7 @@
         <b-navbar-nav class="navbar"> -->
     <nav class="navbar">
             <nuxt-link to="/" class="link">Home</nuxt-link>
-            <nuxt-link to="/" class="link">About</nuxt-link>
+            <nuxt-link to="/Circles" class="link">About</nuxt-link>
             <nuxt-link to="/" class="link">Events</nuxt-link>
             <nuxt-link to="/" class="link">Create Event</nuxt-link>
     </nav>

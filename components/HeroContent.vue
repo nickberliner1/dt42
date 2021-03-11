@@ -46,12 +46,12 @@
 </template>
 
 <script>
-const circle = document.querySelector('.progress-ring__circle');
-const radius = circle.r.baseVal.value;
-const circumference = radius * 2 * Math.PI;
+// const circle = document.querySelector('.progress-ring__circle');
+// const radius = circle.r.baseVal.value;
+// const circumference = radius * 2 * Math.PI;
 
-circle.style.strokeDasharray = `${circumference} ${circumference}`;
-circle.style.strokeDashoffset = circumference;
+// circle.style.strokeDasharray = `${circumference} ${circumference}`;
+// circle.style.strokeDashoffset = circumference;
 
 export default {
     name: 'HeroContent',
