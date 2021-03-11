@@ -29,9 +29,9 @@
 <svg class="progress-ring">
     <circle
         class="progress-ring__circle"
-        stroke-width="1"
+        stroke-width="4"
         fill="transparent"
-        r="58"
+        r="52"
         cx="60"
         cy="60"
     />
