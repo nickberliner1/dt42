@@ -30,6 +30,7 @@
     <circle
         class="progress-ring__circle"
         stroke-width="4"
+        stroke="white"
         fill="transparent"
         r="52"
         cx="60"
