@@ -26,6 +26,16 @@
     <circle class="circle" cx="619.79745" cy="418.45478" r="14.54522" fill="#42f57b"/>
 </svg>
 
+<svg class="progress-ring">
+    <circle
+        class="progress-ring__circle"
+        stroke-width="1"
+        fill="transparent"
+        r="58"
+        cx="60"
+        cy="60"
+    />
+</svg>
 
         </div>
         <h6>ayayayyaya</h6>
