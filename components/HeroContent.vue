@@ -5,7 +5,7 @@
         </div>
         <div class="atom">
             <!-- <img src="~/assets/atom.svg" alt="" srcset=""> -->
-        <svg id="e2d57332-5c77-46ba-a509-f532ebdeb05d" 
+<svg class="atom-svg" id="e2d57332-5c77-46ba-a509-f532ebdeb05d" 
     data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" 
     width="500" height="400" viewBox="0 0 772.72109 669.07003"
 >
@@ -80,6 +80,10 @@ h1, h2, h6 {
     margin: 2em;
     display: block;
     margin: auto;
+}
+
+.circle:hover {
+    fill: #0000ff;
 }
 
 </style>
