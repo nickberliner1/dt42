@@ -71,6 +71,8 @@ export default {
 };
 </script>
 <style lang="css" scoped>
+
+
 .space h1 {
     margin-top: 200vh;
 }
