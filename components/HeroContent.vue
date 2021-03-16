@@ -5,7 +5,7 @@
         </div>
         <div class="atom">
             <!-- <img src="~/assets/atom.svg" alt="" srcset=""> -->
-<svg class="atom-svg" id="e2d57332-5c77-46ba-a509-f532ebdeb05d" 
+<!-- <svg class="atom-svg" id="e2d57332-5c77-46ba-a509-f532ebdeb05d" 
     data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" 
     width="500" height="400" viewBox="0 0 772.72109 669.07003"
 >
@@ -24,19 +24,12 @@
     <circle class="circle" cx="704.83104" cy="253.98191" r="14.54522" fill="#42f57b"/>
     <circle class="circle" cx="385.95507" cy="115.24289" r="14.54522" fill="#42f57b"/>
     <circle class="circle" cx="619.79745" cy="418.45478" r="14.54522" fill="#42f57b"/>
-</svg>
+</svg> -->
 
-<svg class="progress-ring">
-    <circle
-        class="progress-ring__circle"
-        ref="progress-ring__circle"
-        stroke-width="4"
-        stroke="white"
-        fill="transparent"
-        r="52"
-        cx="60"
-        cy="60"
-    />
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1"
+     x="0px" y="0px" viewBox="0 0 505 505" style="enable-background:new 0 0 505 505;" xml:space="preserve">
+  <path class="circleThree circle"
+     d="M502.5,252.5c0,138.07-111.93,250-250,250s-250-111.93-250-250s111.93-250,250-250S502.5,114.43,502.5,252.5z" />
 </svg>
 
         </div>
@@ -71,6 +64,40 @@ export default {
 
 <style scoped>
 
+svg {
+  width: 250px;
+  overflow: visible;
+}
+  
+.circle {
+  fill: none;
+  stroke: red;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+  stroke-linecap: round;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: circleOneStroke 50s linear infinite forwards;
+}
+  
+@keyframes circleOneStroke {
+  0% {
+    transform: rotate(0);
+    stroke-dasharray: 400;
+    stroke-dashoffset: 200;
+  }
+
+  100% {
+    transform: rotate(1800deg);
+    stroke-dasharray: 400;
+    stroke-dashoffset: 200;
+  }
+}
+  
+svg:hover .circle {
+  animation-duration: 2s;
+}
+/* 
 .circle {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
@@ -89,14 +116,14 @@ export default {
 .progress-ring__circle {
     transition: stroke-dashoffset 0.35s;
 }
-
+*/
 .hero-content-container {
     margin: 5rem;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    /* grid-template-rows: 1fr 1fr; */
+    grid-template-rows: 1fr 1fr;
     padding: 2rem;
-}
+} 
 
 h1, h2, h6 {
     background-color: white;
@@ -110,10 +137,6 @@ h1, h2, h6 {
     margin: 2em;
     display: block;
     margin: auto;
-}
-
-.circle:hover {
-    fill: #0000ff;
 }
 
 </style>
