@@ -65,19 +65,20 @@ export default {
 <style scoped>
 
 svg {
-  width: 250px;
+  width: 350px;
   overflow: visible;
 }
   
 .circle {
   fill: none;
-  stroke: red;
-  stroke-width: 10;
+  stroke: rgb(186, 210, 255);
+  stroke-width: 15;
   stroke-miterlimit: 10;
   stroke-linecap: round;
   transform-box: fill-box;
   transform-origin: center;
-  animation: circleOneStroke 50s linear infinite forwards;
+  animation: circleOneStroke 10s linear infinite backwards;
+  transition: transform .1s;
 }
   
 @keyframes circleOneStroke {
@@ -88,15 +89,27 @@ svg {
   }
 
   100% {
-    transform: rotate(1800deg);
+    transform: rotate(360deg);
     stroke-dasharray: 400;
     stroke-dashoffset: 200;
   }
 }
+
+@keyframes zoom {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(100px);
+    }
+}
   
 svg:hover .circle {
-  animation-duration: 2s;
+    animation-duration: 1s;
+    transform: scale(1.5);
 }
+
 /* 
 .circle {
   stroke-dasharray: 1000;
