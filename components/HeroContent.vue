@@ -64,9 +64,15 @@ export default {
 }
 
 h1, h2, h6 {
-    background-color: white;
-    border: 2px solid white;
+    background-color: rgb(236, 236, 236);
+    /* border: 1px solid rgb(128, 128, 128); */
     border-radius: 15px;
+    padding: 15px;
+    box-shadow: 10px 15px 25px 15px #ace8dd8f;
+}
+
+h1:hover {
+    
 }
 
 </style>
