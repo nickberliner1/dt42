@@ -44,7 +44,8 @@ html {
 
 .gradient {
 	/* background: linear-gradient(90deg, #168b57 0%, #2091b1 100%); */
-  background-image: url("https://i.imgur.com/9ppiWac.jpg");
+  background: linear-gradient(90deg, #414a4c 0%, rgb(3, 48, 3) 100%);
+  /* background-image: url("https://i.imgur.com/9ppiWac.jpg"); */
   background-size: cover;
 }
 
