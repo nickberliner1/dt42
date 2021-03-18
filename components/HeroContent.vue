@@ -72,6 +72,8 @@ h1, h2, h6 {
 }
 
 h1:hover {
+    position: relative;
+    top: -4px;
     
 }
 
