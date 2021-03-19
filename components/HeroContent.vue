@@ -71,10 +71,14 @@ h1, h2, h6 {
     box-shadow: 10px 15px 25px 15px #ace8dd8f;
 }
 
+polygon {
+    box-shadow: 10px 15px 25px 15px #ace8dd8f;
+}
+
 h1:hover {
     position: relative;
     top: -4px;
-    
+
 }
 
 </style>
