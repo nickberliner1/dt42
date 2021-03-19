@@ -69,6 +69,8 @@ h1, h2, h6 {
     border-radius: 15px;
     padding: 15px;
     box-shadow: 10px 15px 25px 15px #ace8dd8f;
+    top: 0px;
+    transition: 0.2s ease-in-out;
 }
 
 polygon {
@@ -77,8 +79,7 @@ polygon {
 
 h1:hover {
     position: relative;
-    top: -4px;
-
+    top: -10px;
 }
 
 </style>
