@@ -1,7 +1,15 @@
 <template>
     <div>
         <nav class="navbar">
-        <ul>
+
+            <div class="logo">
+
+            </div>
+
+
+
+
+        <ul class="nav-links">
             <nuxt-link to="/" class="link">Home</nuxt-link>
             <nuxt-link to="/Circles" class="link">About</nuxt-link>
             <nuxt-link to="/" class="link">Events</nuxt-link>
@@ -19,11 +27,14 @@ export default {
 
 <style scoped>
 .navbar {
+    padding: 1.7rem;
+    /* background-color: rgba(179, 179, 179, 0.445); */
+}
+
+.nav-links {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 1.7rem;
-    background-color: rgba(179, 179, 179, 0.445);
 }
 
 .link {
