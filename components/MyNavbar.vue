@@ -1,16 +1,13 @@
 <template>
     <div>
-    
-    <!-- <b-navbar type="dark" variant="dark">
-        <b-navbar-nav class="navbar"> -->
-    <nav class="navbar">
+        <nav class="navbar">
+        <ul>
             <nuxt-link to="/" class="link">Home</nuxt-link>
             <nuxt-link to="/Circles" class="link">About</nuxt-link>
             <nuxt-link to="/" class="link">Events</nuxt-link>
             <nuxt-link to="/" class="link">Create Event</nuxt-link>
-    </nav>
-        <!-- </b-navbar-nav>
-    </b-navbar> -->
+        </ul>
+        </nav>
     </div>
 </template>
 
