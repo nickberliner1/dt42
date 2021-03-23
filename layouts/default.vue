@@ -1,16 +1,22 @@
 <template>
 	<div class="gradient">
-		<MyNavbar />
+
+    <MyNavbar />
 		<Nuxt />
+    <CursorFx />
 	</div>
+
 </template>
 
 <script>
+import { CursorFx } from "@luxdamore/vue-cursor-fx";
+
 import MyNavbar from '../components/MyNavbar';
 
 export default {
 	components: {
-		MyNavbar
+		MyNavbar,
+    CursorFx
 	}
 }
 </script>
