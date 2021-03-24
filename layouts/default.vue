@@ -8,6 +8,7 @@
 
 </template>
 
+
 <script>
 import { CursorFx } from "@luxdamore/vue-cursor-fx";
 
