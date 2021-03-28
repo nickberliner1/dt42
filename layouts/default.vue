@@ -1,6 +1,5 @@
 <template>
 	<div class="gradient">
-
     <MyNavbar />
 		<Nuxt />
     <CursorFx />
